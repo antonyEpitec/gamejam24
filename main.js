@@ -12,7 +12,7 @@ const game = new Phaser.Game(config);
 
 function preload() {
     // Charger les ressources du jeu (images, sons, etc.)
-    this.load.image('logo', 'assets/images/luther.jpg');
+    this.load.image('luther', 'assets/images/luther.jpg');
 }
 
 function create() {
